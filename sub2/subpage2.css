@@ -1,0 +1,224 @@
+@charset "utf-8";
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display: block;
+}
+form{
+    display: block;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+header .h-inner{
+    width: 1410px;
+    position: relative;
+    margin: 0 auto;
+}
+header .h-inner .top{
+    text-align: center;
+}
+header .top .inner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+header .top .inner h1{
+    font-family: "Gugi", sans-serif;
+    color: #151585;
+    font-size: 40px;
+}
+header .top .inner h1 span{
+    color :#ff0000
+}
+.search form{
+    position: relative;
+}
+.h-inner .search input{
+    width: 470px;
+    height: 40px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+.h-inner .search button{
+    position: absolute; 
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 20px;
+    background-color: #fff;
+    color: #888;
+    outline: none;
+}
+button[type=submit]{
+    cursor: pointer;
+}
+
+.h-inner .top .login a{
+    float: left;
+}
+.h-inner .top .login a:nth-child(2){
+    margin: 0 10px;
+}
+.h-inner .top .login a span{
+    font-size: 28px;
+}
+
+.h-inner .bottom{
+    width: 100%;
+}
+.h-inner .bottom .inner{
+    display: flex;
+}
+.h-inner .menu{
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.h-inner .menu ul{
+    margin-left: 80px;
+    display: flex;
+}
+.h-inner .menu ul li{
+    margin-left: 70px;
+}
+/* main */
+main{
+    width: 1410px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+/* breadcrumb */
+.breadcrumb{
+    width: 100%;
+    margin-top:30px ;
+}
+.breadcrumb .be-inner{
+    width: 1410px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb .be-inner a{
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+}
+.breadcrumb .be-inner a:nth-child(2){
+    margin: 0 10px;
+    color: #000;
+}
+.breadcrumb .be-inner a:first-child::after{
+    content: '>';
+    margin-left: 10px;
+}
+/* title */
+.content-title{
+    margin: 40px 0;
+}
+.content-title h2{
+    font-size: 40px;
+}
+
+/* content */
+.comtent{
+    width: 100%;
+    overflow: hidden;
+}
+.content .inner-title{
+    margin-bottom: 30px;
+}
+ul li{
+    margin-bottom: 25px;
+}
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 120px;
+    background-color: #eee;
+}
+footer .inner-content{
+    width: 1410px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+footer .inner-content .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+footer .inner-content .footer-top .left ul{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer .inner-content .footer-top .left .add p:first-child{
+    margin-top: 0px;
+}
+footer .inner-content .footer-top .left .add p:not(:first-child){
+    margin-top: 10px;
+}
+footer .inner-content .footer-top .left .add p span{
+    margin-right: 12px;
+}
+footer .inner-content .footer-top .left .add p span::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin-left: 12px;
+    background-color: #ccc;
+}
+footer .inner-content .footer-top .left .nice{
+    margin-top: 20px;
+}
+footer .inner-content .footer-top .left .nice dt{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer .inner-content .footer-top .left .nice dd{
+    display: inline-block;
+    line-height: 26px;
+}
+footer .inner-content .footer-top  .right{
+    text-align: right;
+}
+footer .inner-content .footer-top  .right dl .num{
+    padding: 5px 0 7px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #00317a;
+}
+footer .inner-content .footer-top  .right dl dd{
+    font-size: 14px;
+    line-height: 26px;
+}
+footer .inner-content .footer-bottom{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
