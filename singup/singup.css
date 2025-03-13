@@ -1,0 +1,323 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display: block;
+}
+form{
+    display: block;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+header .h-inner{
+    width: 1410px;
+    position: relative;
+    margin: 0 auto;
+}
+header .h-inner .top{
+    text-align: center;
+}
+header .top .inner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+header .top .inner h1{
+    font-family: "Gugi", sans-serif;
+    color: #151585;
+    font-size: 40px;
+}
+header .top .inner h1 span{
+    color :#ff0000
+}
+.search form{
+    position: relative;
+}
+.h-inner .search input{
+    width: 470px;
+    height: 40px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+.h-inner .search button{
+    position: absolute; 
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 20px;
+    background-color: #fff;
+    color: #888;
+    outline: none;
+}
+button[type=submit]{
+    cursor: pointer;
+}
+
+.h-inner .top .login a{
+    float: left;
+}
+.h-inner .top .login a:nth-child(2){
+    margin: 0 10px;
+}
+.h-inner .top .login a span{
+    font-size: 28px;
+}
+
+.h-inner .bottom{
+    width: 100%;
+}
+.h-inner .bottom .inner{
+    display: flex;
+}
+.h-inner .menu{
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.h-inner .menu ul{
+    margin-left: 80px;
+    display: flex;
+}
+.h-inner .menu ul li{
+    margin-left: 70px;
+}
+/* main */
+main{
+    width: 1410px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+/* breadcrumb */
+.breadcrumb{
+    width: 100%;
+    margin-top:30px ;
+}
+.breadcrumb .be-inner{
+    width: 1410px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb .be-inner a{
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+}
+.breadcrumb .be-inner a:nth-child(2){
+    margin: 0 10px;
+    color: #000;
+}
+.breadcrumb .be-inner a:first-child::after{
+    content: '>';
+    margin-left: 10px;
+}
+
+.content-title{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+.content-title .title h2{
+    font-size: 30px;
+    color: #151585;
+    margin-bottom: 20px;
+}
+.content-title .title p{
+    margin-bottom: 35px;
+}
+
+/* content */
+.content{
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.content .inner-content{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.content .inner-content .box{
+    display: inline-block;
+    width: 125px;
+    text-align: center;   
+    align-items: center;
+}
+.content .inner-content .box img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.content .inner-content .box p{
+    font-size: 13px;
+}
+/* btn */
+.content .btn{
+    margin: 30px 0;
+}
+.content .btn a{
+    display: block;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff0000;
+    color: #fff;
+    /* align-content: center; */
+    line-height: 50px;
+}
+
+/* sns */
+.sns-login{
+    margin-top: 80px;
+    text-align: center;
+}
+.sns-login .title{
+    position: relative;
+    margin-bottom: 20px;
+}
+.sns-login .title::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    transform: translateY(-50%);
+}
+.sns-login .title p{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.sns .kakao{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/icon_sns_kakao.png);
+    background-position: center;
+}
+.sns .naver{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/icon_sns_naver.png);
+    background-position: center;
+    margin: 0 40px;
+}
+.sns .apple{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/icon_sns_apple.png);
+    background-position: center;
+}
+.sns-login > p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.sns-login > p span{
+    color: #ff0000;
+}
+.sns-login > p a{
+    text-decoration: underline;
+    color: #ff0000;
+}
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 120px;
+    background-color: #eee;
+}
+footer .inner-content{
+    width: 1410px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+footer .inner-content .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+footer .inner-content .footer-top .left ul{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer .inner-content .footer-top .left .add p:first-child{
+    margin-top: 0px;
+}
+footer .inner-content .footer-top .left .add p:not(:first-child){
+    margin-top: 10px;
+}
+footer .inner-content .footer-top .left .add p span{
+    margin-right: 12px;
+}
+footer .inner-content .footer-top .left .add p span::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin-left: 12px;
+    background-color: #ccc;
+}
+footer .inner-content .footer-top .left .nice{
+    margin-top: 20px;
+}
+footer .inner-content .footer-top .left .nice dt{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer .inner-content .footer-top .left .nice dd{
+    display: inline-block;
+    line-height: 26px;
+}
+footer .inner-content .footer-top  .right{
+    text-align: right;
+}
+footer .inner-content .footer-top  .right dl .num{
+    padding: 5px 0 7px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #00317a;
+}
+footer .inner-content .footer-top  .right dl dd{
+    font-size: 14px;
+    line-height: 26px;
+}
+footer .inner-content .footer-bottom{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
