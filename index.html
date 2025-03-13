@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ottogi</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/dfb875ad8b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-br">
+            오뚜기몰 웰컴 쿠폰팩 <i class="fa-solid fa-percent"></i> & 오뚜기프트<i class="fa-solid fa-gift"></i>
+        </div>
+        <div class="head">
+            <div class="top">
+                <div class="inner">
+                    <div class="logo">
+                        <h1><a href="index.html">
+                            오뚜기<span>mall</span>
+                        </a></h1>
+                    </div>
+                    <div class="search">
+                        <form action="">
+                            <input type="text" placeholder="라면은 역시 오뚜기 라면~~🍜">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="login">
+                        <a href="login/login.html">
+                            <span><i class="fa-solid fa-power-off"></i></span>
+                            <p>로그인</p>
+                        </a>
+                        <a href="#">
+                            <span><i class="fa-regular fa-user"></i></span>
+                            <p>마이페이지</p>
+                        </a>
+                        <a href="#">
+                            <span><i class="fa-solid fa-cart-shopping"></i></span>
+                            <p>장바구니</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="inner">
+                    <div class="menu">
+                        <div class="category">카테고리</div>
+                        <ul>
+                            <li><a href="subpage/sub1/subpage1.html">신제품</a></li>
+                            <li><a href="subpage/sub3/subpage3.html">only</a></li>
+                            <li><a href="subpage/sub2/subpage2.html">이벤트</a></li>
+                            <li><a href="subpage/sub4/subpage4.html">
+                                    <img src="./img/menu.png" alt="" >
+                                </a></li>
+                            <li><a href="subpage/sub5/subpage5.html">베스트</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- 슬라이드 -->
+        <section>
+            <div class="main-sld">
+                <div class="list">
+                    <div class="sldim">
+                        <a href="#">
+                            <!-- <img src="./img/mainslider01.jpg" alt=""> -->
+                        </a>
+                    </div>
+                    <div class="sldim">
+                        <a href="#">
+                            <!-- <img src="./img/mainslider02.jpg" alt=""> -->
+                        </a>
+                    </div>
+                    <div class="sldim">
+                        <a href="#">
+                            <!-- <img src="./img/mainslider03.jpg" alt=""> -->
+                        </a>
+                    </div>
+                    <div class="sldim">
+                        <a href="#">
+                            <!-- <img src="./img/mainslider04.jpg" alt=""> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="button" class="left">&#10094;</button>
+                    <button type="button" class="right">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 아이콘 메뉴 -->
+        <section class="icon-menu">
+            <div class="icon">
+                <ul>
+                    <li><a href="">
+                            <img src="./img/icon1.png" alt="건강한O늘">
+                            <p>건강한O늘!</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon2.png" alt="뚜밀리 혜택">
+                            <p>뚜밀리 혜택</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon3.png" alt="뚜밀리 마을">
+                            <p>뚜밀리 마을</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon4.png" alt="에그/디저트존">
+                            <p>에그/디저트존</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon5.png" alt="원쁠원">
+                            <p>원쁠원</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon6.png" alt="99마켓">
+                            <p>99마켓</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon7.png" alt="브랜드관">
+                            <p>브랜드관</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon8.png" alt="무료배송">
+                            <p>무료배송</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon9.png" alt="굿즈">
+                            <p>굿즈</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="./img/icon10.png" alt="맛있는 콘텐츠">
+                            <p>맛있는 콘텐츠</p>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- NEW -->
+        <section class="new">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>새로움을 맛보세요</h2>
+                </div>
+                <div class="bottom">
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood01.jpg" alt="후추팝콘">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>고소한 팝콘에 알싸한 순후추 시즈닝이 가득</p>
+                                <p>[이달의 신제품15%할인]순후추팝콘55G</p>
+                                <p class="price">1,880<span>원</span></p>
+                                <div class="badge">
+                                    <span class="cup1">실온</span>
+                                    <span class="cup2">NEW</span>
+                                    <span class="cup3">쿠폰</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>고소하고 매콤한 참깨만두 </p>
+                                <p>[이달의 신제품15%할인]참깨만두(396GX)</p>
+                                <p class="price">10,980<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood03.jpg" alt="마요네스">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>지방함량을 줄여도 고소한 마요네스</p>
+                                <p>[이달의 신제품15%할인]LIFHT&JOY 1/2하프마요네스 835G</p>
+                                <p class="price">8,480<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood04.jpg" alt="케찹">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>당과 염분을 줄여도 토마토맛은 그대로</p>
+                                <p>[이달의 신제품15%할인]LIGHT&JOY 1/2하프케찹 760G</p>
+                                <p class="price">5,080<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood05.jpg" alt="마라볶음밥">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>당과 염분을 줄여도 토마토맛은 그대로</p>
+                                p>마라볶음밥 용기230G</p>
+                                <p lass="price">4,780<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood06.jpg" alt="페퍼팝">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>순후추에 더해진 풍성한 감칠맛</p>
+                                <p>페퍼팝 오리지널20G</p>
+                                <p class="price">2,480<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood07.jpg" alt="페퍼팝 카레맛">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>뿌려먹고 찍어먹는 맛있는 후추</p>
+                                <p>페퍼팝 카레맛20G</p>
+                                <p class="price">2,480<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+
+                    <div class="newitem">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/newfood08.jpg" alt="페퍼팝 마라맛">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>톡 쏘는 순후추와 강렬한 마라의 조화</p>
+                                <p>페퍼팝 마라맛 20G</p>
+                                <p class="price">2,480<span>원</span></p>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button class="btn-cart"></button>
+                        </div>
+                    </div>
+                    <button type="button" class="left">&#10094;</button>
+                    <button type="button" class="right">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENT -->
+        <div class="event">
+            <a href="#">
+                <img src="./img/eventbanner01.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./img/eventbanner02.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./img/eventbanner03.png" alt="">
+            </a>
+            <div class="left">&#10094;</div>
+            <div class="right">&#10095;</div>
+        </div>
+
+        <!-- 이런상품어때요 -->
+        <section class="sv">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>이런 상품 어때요?</h2>
+                </div>
+                <div class="bottom">
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food01.jpg" alt="황태콩나물해장국밥">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>컵밥 황태콩나물해장국밥(증량)301.5G</p>
+                                <P class="price">4,480<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food02 (2).jpg" alt="볶음밥2종">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>맛있는 볶음밥2종 골라담기(선택)</p>
+                                <P class="price">6,480<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food03.jpg" alt="고기완자">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>계란입힌 고기완자400G</p>
+                                <P class="price">9,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food04.jpg" alt="현미밥30개">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[무료배송]가뿐한끼 100% 현미로 지은 부드러운 현미밥 130G 30개</p>
+                                <P class="price">33,880<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup5">무료배송</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food05.jpg" alt="웰컴 오뚜기프트C">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[오뚜기프트]웰컴 오뚜기프트C(신제품SET)</p>
+                                <P class="price">43,300<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup5">무료배송</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 오뚜기몰에서만나요 -->
+        <section class="content">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>오뚜기몰에서 만나요</h2>
+                </div>
+                <div class="bottom">
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food06.jpg" alt="상쾌한">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[오뚜기몰 단독]오뚜기X상쾌한 선물세트</p>
+                                <P class="price">16,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup5">무료배송</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food07.jpg" alt="후추크림 파스타소스">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>순후추크림 파스타소스370G</p>
+                                <P class="price">6,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food08.jpg" alt="사골곰탕면">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옛날 사골곰탕면105G</p>
+                                <P class="price">1,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/food09.jpg" alt="울릉도 호박죽">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[한정수량]오즈키친 울릉도호박죽420G</p>
+                                <P class="price">5,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MD상품 -->
+        <section class="md">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>오뚜기몰 MD가 엄선한 상품이에요</h2>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li>통영과 함께하는 장어구이</li>
+                        <li>오징어 게임 뿌셔뿌셔!</li>
+                        <li>제주의 맛을 가득 담다</li>
+                        <li>막 만들지 않은 막구수</li>
+                        <li>오뚜기밥 수향미</li>
+                    </ul>
+                    <div class="in-con">
+                        <div class="left">
+                            <p>오뚜기와 손잡고 탄생한 이 장어구이는 단순한 음식이 아닌, <br>
+                                통영의 깊은 바다를 담은 이야기 입니다.
+                            </p>
+                            <p>
+                                장어의 최대 산지인 통영의 장어 판매 활성화를 위해 오뚜기와 손잡고 출시했어요. <br>
+                                한마디로 지역 상생이죠! 자연산 바다장어를 통영에서 직접 잡아, <br>
+                                전국의 유명 장어 맛집을 참고하여 특별한 소스로 감쌌습니다. <br>
+                                개발 중 소스를 몇 번이나 바꾸었는지 몰라요. <br>
+                                또한 0~4도에서 24시간 저온 숙성하요 비린맛은 없애고 깊고 풍부한 감칠맛은 가득 담았습니다. <br>
+                                에어프라이어로 7분,전자레인지로는 3분이면 완성! <br>
+                                통영의 바다장어가 여러분의 식탁을 더욱 풍성하게 채워줄 거예요.
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="box">
+                                <div class="l-box">
+                                    <a href="#">
+                                        <img src="./img/eel01.jpg" alt="장어구이(데리야끼맛)">
+                                    </a>
+                                </div>
+                                <div class="right-box">
+                                    <P>저온숙성자연산 장어구이(데리야끼맛)140GX3</P>
+                                    <P>19,880<span>원</span></P>
+                                </div>
+                                <div class="btn">
+                                    <button class="tbtn"></button>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="ri-box">
+                                    <a href="#">
+                                        <img src="./img/eel02.jpg" alt="장어구이(매콤한맛)">
+                                    </a>
+                                </div>
+                                <div class="right-box">
+                                    <p>저온숙성자연산 장어구이(매콤한맛)140GX3</p>
+                                    <P>19,880<span>원</span></P>
+                                </div>
+                                <div class="btn">
+                                    <button class="tbtn"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BEST -->
+        <section class="best">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>최근 7일간 BEST</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="rank rank1">1</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood01.jpg" alt="오뚜기밥3개입">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]맛있는 오뚜기밥 3입 3개 골라담기</p>
+                                <P class="price">9,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup6">BEST</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank rank1">2</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood02.jpg" alt="현미밥">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>가뿐한끼 100% 현미로 지은 부드러운 현미밥 130G</p>
+                                <P class="price">1,180<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank rank1">3</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood03.jpg" alt="컵밥">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]컵밥7개 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank">4</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood03.jpg" alt="피자">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]피자 3판 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank">5</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood05.jpg" alt="블랙페퍼 닭가슴살">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>가뿐한끼 촉촉스팀 닭가슴살 블랙페퍼 100G</p>
+                                <P class="price">2,680<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank">6</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood06.jpg" alt="라면 멀티팩">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]라면 멀티팩 5개 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank">7</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood07.jpg" alt="예낫 쌀국수 멸치맛">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옛날 쌀국수 멸치맛92G</p>
+                                <P class="price">1,680<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="rank">8</div>
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/bestfood08.jpg" alt="진라면 매운맛">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>진라면 매운맛(120GX5)</p>
+                                <P class="price">3,580<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup6">BEST</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- doll -->
+        <section class="doll">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>범접할 수 없는 귀여움</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/doll01.jpg" alt="옐로우즈 인형 뚜기/마요/챠비">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옐로우즈 인형 뚜기/마요/챠비</p>
+                                <P class="price">17,800<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/doll2.jpg" alt="옐로우즈 키링 뚜기/마요/챠비">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옐로우즈 키링 뚜기/마요/챠비비</p>
+                                <P class="price">15,800<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/doll3.jpg" alt="참기름 핀뱃지">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>참기름 핀뱃지지</p>
+                                <P class="price">10,880<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/doll4.jpg" alt="케챂마요 핀뱃지">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>케챂마요 핀뱃지</p>
+                                <P class="price">9,180<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1+1 -->
+        <section class="oneplus">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>원쁠원으로 만나요</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/oneplus1.jpg" alt="원쁠원 타바스코 고추장 핫소스">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[원쁠원]타바스코 고추장 핫소스300G1+1</p>
+                                <P class="price"><span class="percent">50% </span>5,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/oneplus2.jpg" alt="통들깨 들기름(스프레이)">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[원쁠원]통들깨 들기름(스프레이)150ML1+1</p>
+                                <P class="price"><span class="percent">50% </span>13,000<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/oneplus3.jpg" alt="통참깨 참기름(스프레이)">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[원쁠원]통참깨 참기름(스프레이)150ML1+1</p>
+                                <P class="price"><span class="percent">50% </span>11,000<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/oneplus4.jpg" alt="순후추 교자+카레 군만두두">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[원쁠원]오뚜기 순후추 교자(324gX2)+카레 군만두(300gX2)1+1</p>
+                                <P class="price"><span class="percent">50% </span>9,480<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                                <span class="cup2">NEW</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- camping -->
+        <section class="camping">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>캠핑메뉴 고민 끝</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/camping1.jpg" alt="라면 멀티팩">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]라면 멀티팩5개 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/camping2.jpg" alt="고소후 간편양념">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>고소후 간편양념 59G</p>
+                                <P class="price">5,980<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/camping3.jpg" alt="페퍼팝 오리지널">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>페퍼팝 오리지널20G</p>
+                                <P class="price">2,480<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup2">NEW</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/camping4.jpg" alt="와사비">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>바질콕콕와사비 100G</p>
+                                <P class="price">5,680<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                                <span class="cup3">쿠폰</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- recipe -->
+        <section class="recipe">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>더 맛있게 즐기는 레시피</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/recipe1.jpg" alt="미트볼">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>한입쏙쏙미트볼(렌지)180G</p>
+                                <P class="price">2,580<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/recipe2.jpg" alt="비빔당면">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옛날자른당면(국산전분100)300G/비빔장/참기름/참깨(선택)</p>
+                                <P class="price">3,780<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/recipe3.jpg" alt="식초2종(선택)">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>식초 2종 골라담기(선택)</p>
+                                <P class="price">3,680<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/recipe4.jpg" alt="옛날국수 메밀국수수">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>옛날국수 메밀국수 400G/장국/들기름(선택)</p>
+                                <P class="price">2,780<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup1">실온</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pizza -->
+        <section class="pizza">
+            <div class="inner-content">
+                <div class="title">
+                    <h2>도우까지 맛있는 토핑가득 피자</h2>
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/pizza1.jpg" alt="피자">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]피자 3판 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/pizza2.jpg" alt="사긱피자">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]UNO 사각피자 5개 골라담기</p>
+                                <P class="price">9,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/pizza3.jpg" alt="컵피자 콤비네이션">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>떠먹는 컵피자 콤비네이션150G</p>
+                                <P class="price">2,880<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="imbox">
+                            <a href="#">
+                                <img src="./img/pizza4.jpg" alt="불고기 피자">
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <p>[99마켓]피자 3판 골라담기</p>
+                                <P class="price">19,900<span>원</span></P>
+                            </a>
+                            <div class="badge">
+                                <span class="cup4">냉장&냉동</span>
+                            </div>
+                            <div class="btn">
+                                <button class="btn-cart"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="inner-content">
+            <div class="footer-top">
+                <div class="left">
+                    <ul>
+                        <li><a href="#">오뚜기 존재이유</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">대량주문문의</a></li>
+                    </ul>
+                    <div class="add">
+                        <p>
+                            <span>대표이사 황성만 </span>14060 경기 안양시 동안구 흥안대로 405 (평촌동)
+                        </p>
+                        <p>
+                            <span>사업자 등록변호 138-81-03238 <a href="#">사업자정보확인</a></span>  통신판매업신고 제 2003-경기안양-169호
+                        </p>
+                        <p>
+                            <span>건강기능식품 판매업 신고 제2007-00002호 </span> 개인정보 보호책임 및 청소년보호 책임자 서흥덕
+                        </p>
+                    </div>
+                    <dl class="nice">
+                        <dt>NICE 구매안전서비스</dt>
+                        <dd>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 <br>
+                            구매안전(에스크로) 서비스를 이용할실 수 있습니다. <a href="#">서비스 가입사실 확인</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="right">
+                    <dl>
+                        <dt>고객센터</dt>
+                        <dd class="num">080-433-8888</dd>
+                        <dd>
+                            월~금09:00~17:00 <br>
+                            (점심시간 12:30~13:30)
+                            (토/일/공휴일 휴무)
+                        </dd>
+                    </dl>
+                    <div class="sns">
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-blog"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-comment"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>ⓒOTTOGL CORP.ALL RIGHTS RESERVED</p>
+                <a href="#">
+                    <img src="./img/otoki.png" alt="오뚜기">
+                </a>
+                <a href="#">
+                    <img src="./img/icon_okitchen.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal">
+        <div class="modalup">
+            <div class="modalcontent">
+                <img src="./img/modal.jpg" alt="">
+            </div>
+            <div class="btn">닫기</div>
+        </div>
+    </div>
+</body>
+
+</html>
